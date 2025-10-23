@@ -1,0 +1,8 @@
+# Core (required)
+pymupdf>=1.23.0
+streamlit>=1.28.0
+
+# LLM support (optional - only if using AI extraction)
+groq>=0.4.0
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
