@@ -12,11 +12,10 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 
-# Pre-loaded sample statements
+# Pre-loaded sample statements (updated filenames)
 SAMPLE_STATEMENTS = {
-    "Sample 1 - Axis Bank": "sample_statements/statement_1.pdf",
-    "Sample 2 - IDFC Bank": "sample_statements/statement_2.pdf",
-    "Sample 3 - HDFC Bank": "sample_statements/statement_3.pdf",
-    "Sample 4 - ICICI Bank": "sample_statements/statement_4.pdf",
-    "Sample 5 - SBI Card": "sample_statements/statement_5.pdf",
+    "Sample 1 - Axis Bank": "F:/cc-parser/cc-parser/cc-parser/sample_statements/540819461-Credit-Card-Statement-1.pdf",
+    "Sample 2 - IDFC Bank": "F:/cc-parser/cc-parser/cc-parser/sample_statements/576360491-IDFC-FIRST-Bank-Credit-Card-Statement-24052022.pdf",
+    "Sample 3 - ICICI Bank": "F:/cc-parser/cc-parser/cc-parser/sample_statements/608920919-CreditCardStatement.pdf",
+    "Sample 4 - HDFC Bank": "F:/cc-parser/cc-parser/cc-parser/sample_statements/636483454-credit-card-statement.pdf",
 }
